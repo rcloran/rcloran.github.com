@@ -13,15 +13,14 @@
 	{% endfor %}
 </head>
 <body>
-	<div class="container">
-		<div class="content">
-		{% unless page.disablenav %}
-		<div class="navbar">{% include nav.html %}<br style="clear: both"</div>
-		{% endunless %}
-			
-			{{ content }}</div>
-		<footer><p>&copy; {{ site.author.name }} 2012</p></footer>
-	</div>
-	{% include analytics.html %}
+<div class="container">
+	<div class="content">
+	{% unless page.disablenav %}
+	<div class="navbar">{% include nav.html %}<br style="clear: both"></div>
+	{% endunless %}
+	{{ content }}</div>
+	<footer><p>&copy; {{ site.author.name }} 2012</p></footer>
+</div>
+{% include analytics.html %}
 </body>
 </html>
