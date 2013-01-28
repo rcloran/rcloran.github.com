@@ -9,14 +9,14 @@ html, body {
   margin-top: 20px;
 }
 .container > footer p {
-  text-align: center; /* center align it with the container */
+  text-align: center;
 }
 
 /* The white background content wrapper */
 .content {
   background-color: #fff;
   padding: 20px;
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  margin: 0 -20px;
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
